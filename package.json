@@ -1,9 +1,36 @@
 {
   "name": "template-javascript",
-  "version": "1.0.0",
-  "private": "true",
-  "main": "index.js",
+  "version": "0.0.0",
+  "private": true,
+  "keywords": [],
   "repository": "git@github.com:karolis-sh/template-javascript.git",
+  "license": "MIT",
   "author": "Karolis Šarapnickis <pastas.k@gmail.com>",
-  "license": "MIT"
+  "main": "index.js",
+  "scripts": {
+    "format": "run-p format:*",
+    "format:js": "prettier --write '**/*.*'",
+    "format:package.json": "sort-package-json --gitignore **/package.json"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "**/package.json": [
+      "sort-package-json"
+    ],
+    "*.{json,md,html}": [
+      "pretty-quick --staged"
+    ]
+  },
+  "devDependencies": {
+    "@k.sh/eslint-config": "^1.17.0",
+    "husky": "^4.3.0",
+    "lint-staged": "^10.4.0",
+    "npm-run-all": "^4.1.5",
+    "pretty-quick": "^3.0.2",
+    "sort-package-json": "^1.46.0"
+  }
 }
