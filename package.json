@@ -1,0 +1,9 @@
+{
+  "name": "template-javascript",
+  "version": "1.0.0",
+  "private": "true",
+  "main": "index.js",
+  "repository": "git@github.com:karolis-sh/template-javascript.git",
+  "author": "Karolis Šarapnickis <pastas.k@gmail.com>",
+  "license": "MIT"
+}
