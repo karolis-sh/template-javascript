@@ -1,10 +1,9 @@
-*.*
+*
+!*/
 !*.js
-!*.ts
-!*.tsx
 !*.json
 !*.md
-!*.html
+!*.yml
 
 # npm files
 node_modules

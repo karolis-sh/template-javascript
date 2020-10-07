@@ -10,8 +10,8 @@
   "scripts": {
     "commit": "npx cz",
     "format": "run-p format:*",
-    "format:js": "prettier --write '**/*.*'",
     "format:package.json": "sort-package-json package.json",
+    "format:prettier": "prettier --write '**/*.*'",
     "lint": "run-p lint:*",
     "lint:js": "eslint .",
     "lint:md": "markdownlint **/*.md",
@@ -27,7 +27,7 @@
     "**/package.json": [
       "sort-package-json"
     ],
-    "*.{json,md,html}": [
+    "*.{json,md,yml}": [
       "pretty-quick --staged"
     ],
     "*.{js}": [
