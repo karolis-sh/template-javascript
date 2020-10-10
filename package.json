@@ -15,6 +15,7 @@
     "lint": "run-p lint:*",
     "lint:js": "eslint .",
     "lint:md": "markdownlint *.md -i node_modules",
+    "lint:types": "tsc --noEmit",
     "qa": "run-p lint"
   },
   "husky": {
@@ -27,11 +28,11 @@
     "**/package.json": [
       "sort-package-json"
     ],
+    "*.{js,ts,tsx}": [
+      "eslint --fix"
+    ],
     "*.{json,md,yml}": [
       "pretty-quick --staged"
-    ],
-    "*.{js}": [
-      "eslint --fix"
     ]
   },
   "config": {
@@ -47,6 +48,7 @@
     "markdownlint-cli": "^0.24.0",
     "npm-run-all": "^4.1.5",
     "pretty-quick": "^3.0.2",
-    "sort-package-json": "^1.46.0"
+    "sort-package-json": "^1.46.0",
+    "typescript": "^4.0.3"
   }
 }

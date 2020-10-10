@@ -1,4 +1,10 @@
 {
   "extends": ["@k.sh/eslint-config"],
-  "env": {}
+  "env": {},
+  "overrides": [
+    {
+      "files": ["**/*.ts", "**/*.tsx"],
+      "extends": ["@k.sh/eslint-config/typescript"]
+    }
+  ]
 }
