@@ -40,7 +40,7 @@
     }
   },
   "devDependencies": {
-    "@k.sh/eslint-config": "^1.17.0",
+    "@k.sh/eslint-config": "^1.18.1",
     "cz-conventional-changelog": "^3.3.0",
     "husky": "^4.3.0",
     "lint-staged": "^10.4.0",

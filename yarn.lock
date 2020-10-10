@@ -71,10 +71,10 @@
   resolved "https://registry.yarnpkg.com/@commitlint/types/-/types-11.0.0.tgz#719cf05fcc1abb6533610a2e0f5dd1e61eac14fe"
   integrity sha512-VoNqai1vR5anRF5Tuh/+SWDFk7xi7oMwHrHrbm1BprYXjB2RJsWLhUrStMssDxEl5lW/z3EUdg8RvH/IUBccSQ==
 
-"@k.sh/eslint-config@^1.17.0":
-  version "1.17.0"
-  resolved "https://registry.yarnpkg.com/@k.sh/eslint-config/-/eslint-config-1.17.0.tgz#d66fbd49eadb69d27a8321505821d525f0d9ed54"
-  integrity sha512-dR4oICU+uYkN05Xi66V6GsFV8GIyls01FvFIMEgLOhpUoDvLXhwu2FzLbPv8KMFYQnJ2vrnrAJDBXcPyJxItGQ==
+"@k.sh/eslint-config@^1.18.1":
+  version "1.18.1"
+  resolved "https://registry.yarnpkg.com/@k.sh/eslint-config/-/eslint-config-1.18.1.tgz#f68102530f63130b166fe1218d988cdc45095c4b"
+  integrity sha512-7hGR7qBd2F0lRp7wc3sxUghIh96qSUP9CUgh7n8lOCaTdPd6KxcZUEdPFpRh3zqAY01X22alBrjyOR3KxDUhtQ==
   dependencies:
     "@typescript-eslint/eslint-plugin" "^2.19.0"
     eslint "^6.8.0"
