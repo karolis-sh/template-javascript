@@ -3,8 +3,4 @@
 package-lock.json
 *.log*
 
-# other
-.vscode
-*.*~
-
 # project
