@@ -5,7 +5,7 @@
   "keywords": [],
   "repository": "git@github.com:karolis-sh/template-javascript.git",
   "license": "MIT",
-  "author": "Karolis Šarapnickis <pastas.k@gmail.com>",
+  "author": "Karolis Šarapnickis",
   "main": "index.js",
   "scripts": {
     "commit": "npx cz",
