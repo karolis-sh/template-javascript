@@ -20,6 +20,7 @@
   "husky": {
     "hooks": {
       "pre-commit": "lint-staged",
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
       "pre-push": "yarn qa"
     }
   },
@@ -40,6 +41,8 @@
     }
   },
   "devDependencies": {
+    "@commitlint/cli": "^11.0.0",
+    "@commitlint/config-conventional": "^11.0.0",
     "@k.sh/eslint-config": "^1.18.1",
     "cz-conventional-changelog": "^3.3.0",
     "husky": "^4.3.0",
