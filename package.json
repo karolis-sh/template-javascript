@@ -15,7 +15,8 @@
     "lint": "run-p lint:*",
     "lint:js": "eslint .",
     "lint:md": "markdownlint-cli2 '**/*.md' '!node_modules' '!**/node_modules'",
-    "qa": "run-p lint"
+    "qa": "run-p lint",
+    "release": "yarn && run-s qa && standard-version --no-verify && git push --follow-tags --no-verify && npm publish"
   },
   "husky": {
     "hooks": {
@@ -50,6 +51,7 @@
     "markdownlint-cli2": "^0.0.10",
     "npm-run-all": "^4.1.5",
     "pretty-quick": "^3.0.2",
-    "sort-package-json": "^1.46.0"
+    "sort-package-json": "^1.46.0",
+    "standard-version": "^9.0.0"
   }
 }
