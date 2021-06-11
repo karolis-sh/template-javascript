@@ -16,25 +16,12 @@
     "lint:js": "eslint .",
     "lint:md": "markdownlint-cli2 '**/*.md' '!node_modules' '!**/node_modules'",
     "qa": "run-p lint",
-    "release": "yarn && run-s qa && standard-version --no-verify && git push --follow-tags --no-verify && npm publish"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged",
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
-      "pre-push": "yarn qa"
-    }
+    "release": "yarn && run-s qa && standard-version --no-verify && git push --follow-tags --no-verify && npm publish",
+    "prepare": "husky install"
   },
   "lint-staged": {
-    "**/package.json": [
-      "sort-package-json"
-    ],
-    "*.{json,md,yml}": [
-      "pretty-quick --staged"
-    ],
-    "*.{js}": [
-      "eslint --fix"
-    ]
+    "**/package.json": "sort-package-json",
+    "*.{js}": "eslint --fix"
   },
   "config": {
     "commitizen": {
@@ -46,8 +33,8 @@
     "@commitlint/config-conventional": "^12.1.4",
     "@k.sh/eslint-config": "^1.21.0",
     "cz-conventional-changelog": "^3.3.0",
-    "husky": "^4.3.0",
-    "lint-staged": "^11.0.0",
+    "husky": "^6.0.0",
+    "lint-staged": ">=10",
     "markdownlint-cli2": "^0.1.3",
     "npm-run-all": "^4.1.5",
     "pretty-quick": "^3.1.0",
