@@ -2,9 +2,8 @@
 
 [![npm version][package-version-badge]][package-version]
 [![gzip size][package-size-badge]][package-size]
-![Node.js CI](https://github.com/karolis-sh/template-javascript/workflows/Node.js%20CI/badge.svg)
+[![Node.js CI](https://github.com/karolis-sh/template-javascript/actions/workflows/node.js.yml/badge.svg)](https://github.com/karolis-sh/template-javascript/actions/workflows/node.js.yml)
 [![License: MIT](https://img.shields.io/badge/license-mit-yellow.svg)](https://opensource.org/licenses/MIT)
-[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
 
 > Sub-header
 
@@ -19,6 +18,10 @@ Description.
 ## API
 
 ## FAQ
+
+## Licence
+
+[MIT](/LICENSE)
 
 [package-version-badge]: https://badge.fury.io/js/react.svg
 [package-version]: https://www.npmjs.com/package/react
