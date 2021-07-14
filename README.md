@@ -19,10 +19,6 @@ Description.
 
 ## FAQ
 
-## Licence
-
-[MIT](/LICENSE)
-
 [package-version-badge]: https://badge.fury.io/js/react.svg
 [package-version]: https://www.npmjs.com/package/react
 [package-size-badge]: https://img.shields.io/bundlephobia/minzip/react?label=gzip
