@@ -31,10 +31,10 @@
   "devDependencies": {
     "@commitlint/cli": "^17.3.0",
     "@commitlint/config-conventional": "^17.3.0",
-    "@k.sh/eslint-config": "^1.21.2",
+    "@k.sh/eslint-plugin": "^0.7.0",
     "@k.sh/prettier-config": "^0.4.1",
     "cz-conventional-changelog": "^3.3.0",
-    "eslint-plugin-prettier": "^4.2.1",
+    "eslint": "^8.30.0",
     "husky": "^8.0.2",
     "lint-staged": ">=13.1.0",
     "markdownlint-cli2": "^0.5.1",
