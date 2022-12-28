@@ -4,9 +4,14 @@
 !*.json
 !*.md
 !*.yml
+!*.sh
+!*.gitignore
+!*.env
+!*.env.*
 
 # npm files
 node_modules
 package.json
 
 # project
+.husky/_/
